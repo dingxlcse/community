@@ -16,6 +16,7 @@ public class LoggerTests {
     @Test
     public void testLogger(){
         System.out.println(logger.getName());
+        //四个级别
         logger.debug("debug log");
         logger.info("info log");
         logger.warn("warn log");
